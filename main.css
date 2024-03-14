@@ -1,0 +1,168 @@
+.header{
+    background-image: url('https://play-lh.googleusercontent.com/J66djEmgbUxEUetLt5yYpM_BypGGrz05iPXgXm0-LxXfPB4GyLOxBqLgn1EozOZd1A');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background: #f2f2f2;
+    
+}
+nav{
+    background:black;
+}
+nav:after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav .logo{
+    float: left;
+    font-family: 'Marck Script', cursive;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-left: 60px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background: black;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 8px 15px;
+    font-family: 'Crimson Text', serif;
+}
+nav ul li a:hover{
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #eab676,
+                0 0 5px #eab676;
+}
+nav ul ul li a:hover{
+    color: cyan;
+    box-shadow: none;
+}
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top.3s;
+
+}
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 150px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 3px 4px #eab676;
+    color: #fff5e7;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.header-text >p{
+    font-family: 'Dancing Script', cursive;
+}
+.header-text >h1{
+    font-family: 'Crimson Text', serif;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+footer > p{
+    font-family: 'Crimson Text', serif;
+}
+section h1 {
+   text-align: center;
+   padding: 30px;
+   font-family: 'Crimson Text', serif;
+   font-size: 28px;
+}
+section h2 {
+   text-align: center;
+   padding: 30px;
+   font-family: 'Crimson Text', serif;
+   font-size: 28px;
+}
+
+section  p{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 25px;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+
+}
+pre {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    font-family: monospace;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+code {
+    color: #c7254e;
+    margin-left: 10%;
+     margin-right: 10%;
+}
+#canvas{
+    padding: 18px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#canvas1{
+    padding: 18px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#canvas2{
+    padding: 18px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
